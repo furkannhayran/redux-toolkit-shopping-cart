@@ -1,0 +1,14 @@
+.Sorting-container{
+    background-color: rgb(231, 227, 227);
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+    flex: end;
+    .sorting-select{
+        padding: 0.3rem;
+        border: none;
+        outline: none;
+        border-radius: 0.5rem;
+        font-weight: 500;
+    }
+}

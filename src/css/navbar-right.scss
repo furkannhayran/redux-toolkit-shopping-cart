@@ -1,0 +1,37 @@
+.navbarRight-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .navbarRight-navbar {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        border-radius: 2rem;
+        background-color: rgb(241, 237, 237);
+
+        .navbarRight-navbar-input {
+            background-color: rgb(241, 237, 237);
+            outline: none;
+            border: none;
+        }
+    }
+
+    .navbar-basket {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .navbar-count {
+            position: absolute;
+            top: 1px;
+            background-color: red;
+            border-radius: 60% ;
+            padding: 3px;
+            font-size: 12px;
+            font-weight: bold;
+            color: #fff ;
+        }
+    }
+
+}
